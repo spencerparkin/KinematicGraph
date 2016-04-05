@@ -1,0 +1,12 @@
+# Ignore dev-studio temporaries
+*.ncb
+*.suo
+*.user
+*.tss
+*.sdf
+*.htm
+*.opensdf
+.vs/
+
+# Ignore built files and intermmediates
+Build/

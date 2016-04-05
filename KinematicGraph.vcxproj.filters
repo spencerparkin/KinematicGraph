@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Code\C3GA">
+      <UniqueIdentifier>{5709a213-bd10-49ea-9bd6-5db6cb180076}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\C3GA\c3ga.cpp">
+      <Filter>Code\C3GA</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\C3GA\c3ga_parse_mv.cpp">
+      <Filter>Code\C3GA</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\KinematicGraphFrame.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\KinematicGraphCanvas.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\KinematicGraphApp.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\KinematicGraph.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\C3GA\c3ga.h">
+      <Filter>Code\C3GA</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\KinematicGraphFrame.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\KinematicGraphCanvas.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\KinematicGraphApp.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\KinematicGraph.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
