@@ -242,6 +242,8 @@ void KinematicGraph::MoveVertex( int id, const c3ga::vectorE3GA& delta )
 						move.vertex = vertex;
 						move.delta = deltaDir * ( error * 0.5f );
 						moveQueue.push_back( move );
+
+						break;
 					}
 				}
 			}
@@ -260,6 +262,8 @@ void KinematicGraph::MoveVertex( int id, const c3ga::vectorE3GA& delta )
 					//move.vertex = edge->vertex[1];
 					//move.delta = deltaDir * ( -error * 0.5f );
 					//moveQueue.push_back( move );
+
+					break;
 				}
 			}
 
