@@ -268,6 +268,8 @@ void KinematicGraph::MoveVertex( int id, const c3ga::vectorE3GA& delta )
 	}
 }
 
+// TODO: Note that I have seen this routine lock-up (i.e., loop forever);
+//       so there are some cases where it's possible.
 void KinematicGraph::MoveVertexUnconstrained( Vertex* vertex, const c3ga::vectorE3GA& delta )
 {
 	Move move;
